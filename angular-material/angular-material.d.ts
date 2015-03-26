@@ -29,6 +29,7 @@ declare module angular.material {
         content(content: string): T;
         ok(content: string): T;
         theme(theme: string): T;
+        targetEvent(ev: Event): T;
     }
 
     interface MDAlertDialog extends MDPresetDialog<MDAlertDialog> {
